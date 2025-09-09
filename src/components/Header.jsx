@@ -5,7 +5,7 @@ const Header = () => {
     <header className="header fade-in-up">
       <div className="container">
         <div className="header-content">
-          <h1>This is my software development portfolio</h1>
+          <h1>This is my software development portfolio<span className="cursor">|</span></h1>
           <h2>Graduate Student in Computer Information Technology</h2>
         </div>
       </div>
@@ -49,6 +49,22 @@ const Header = () => {
           font-size: clamp(1.2rem, 2.5vw, 1.5rem);
           letter-spacing: 0.05em;
           text-transform: uppercase;
+        }
+        
+        .cursor {
+          color: var(--accent-3);
+          font-weight: 300;
+          animation: blink 1s infinite;
+          margin-left: 0.2rem;
+        }
+        
+        @keyframes blink {
+          0%, 50% {
+            opacity: 1;
+          }
+          51%, 100% {
+            opacity: 0;
+          }
         }
         
         @media (max-width: 768px) {
