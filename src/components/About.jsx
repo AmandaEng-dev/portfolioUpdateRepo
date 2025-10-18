@@ -6,25 +6,14 @@ const About = () => {
       <div className="container">
         <div className="about-content asymmetrical">
           <div className="about-text fade-in-left">
-            <h2>About Me</h2>
+            <h2>So What?</h2>
             <p>
               As a graduate student in Computer Information Technology, I am passionate about 
               creating innovative software solutions that solve real-world problems. My journey 
               in technology began with a curiosity for how things work, which has evolved into 
               a deep understanding of full-stack development, database design, and system architecture.
             </p>
-            <p>
-              I specialize in modern web technologies including React, Node.js, and cloud platforms, 
-              while maintaining a strong foundation in computer science principles. My academic 
-              background provides me with both theoretical knowledge and practical skills necessary 
-              to excel in software development roles.
-            </p>
-            <p>
-              When I'm not coding, you can find me exploring new technologies, contributing to 
-              open-source projects, or sharing knowledge with the developer community. I believe 
-              in continuous learning and staying current with industry trends to deliver the best 
-              possible solutions.
-            </p>
+            
           </div>
           
           <div className="about-visual fade-in-up">
@@ -90,6 +79,7 @@ const About = () => {
           font-size: 1.1rem;
           line-height: 1.8;
           margin-bottom: 1.5rem;
+          
         }
         
         .about-visual {

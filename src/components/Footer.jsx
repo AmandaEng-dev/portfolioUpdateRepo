@@ -40,7 +40,7 @@ const Footer = () => {
       
       <style jsx>{`
         .footer {
-          background: var(--dark);
+          background: var(--foter);
           color: var(--white);
           padding: 3rem 0 1rem;
           position: relative;

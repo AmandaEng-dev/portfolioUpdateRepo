@@ -4,26 +4,26 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce application with user authentication, product management, and payment integration.",
+      title: "GrowPoints",
+      description: "A full-stack e-commerce application with user authentication, user need, etc.",
       techStack: ["React", "Node.js", "MongoDB", "Stripe API"],
-      githubLink: "https://github.com/username/ecommerce-platform",
+      githubLink: "https://github.com",
       demoLink: "https://ecommerce-demo.com"
     },
     {
       id: 2,
-      title: "Task Management System",
+      title: "Deployment of MongoDB Commerce Database",
       description: "A collaborative task management tool with real-time updates, team collaboration features, and project tracking.",
       techStack: ["Vue.js", "Express.js", "PostgreSQL", "Socket.io"],
-      githubLink: "https://github.com/username/task-manager",
+      githubLink: "https://github.com",
       demoLink: "https://taskmanager-demo.com"
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "A responsive weather application with location-based forecasts, interactive maps, and data visualization.",
+      title: "Flappy Bird Game",
+      description: "Description test.",
       techStack: ["React", "TypeScript", "OpenWeather API", "Chart.js"],
-      githubLink: "https://github.com/username/weather-dashboard",
+      githubLink: "https://github.com",
       demoLink: "https://weather-demo.com"
     }
   ];
@@ -50,12 +50,12 @@ const Projects = () => {
                 </div>
                 
                 <div className="project-links">
-                  <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="link-button github">
+                  {/* <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="link-button github">
                     GitHub
                   </a>
                   <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="link-button demo">
                     Live Demo
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
